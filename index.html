@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="./script.js" defer></script>
+    <title>Music Player</title>
+</head>
+<body>
+     <div class="musicContainer" id="musicContainer">
+        <div class="imgContainer" id="imgContainer">
+            <img id="imgInside" src="./img/jacinto-1.jpg" alt="">
+        </div>
+        <div class="songAndArtist" id="songAndArtist">
+            <div id="songName">Ice And Fire</div> 
+            <div id="artistName">Usama</div>
+        </div>
+        <div class="time">
+            <div class="currentDuration" id="currentDuration">00:00</div>
+            <div class="fullTime" id="fullTime">02:06</div>
+        </div>
+        <div class="progress" id="progress">
+          <div class="progressBar" id="progressBar">
+            </div>
+        </div>
+        <audio id="audio" src="./music/jacinto-1.mp3"></audio>
+        <div class="icons" id="icons">
+            <i class="fa-solid fa-circle-chevron-left" id="backward"></i>
+            <i class="fa-solid fa-circle-play" id="play" title="play"></i>
+        <i class="fa-solid fa-circle-chevron-right" id="forward"></i>
+        </div>
+     </div>
+
+</body>
+</html>
